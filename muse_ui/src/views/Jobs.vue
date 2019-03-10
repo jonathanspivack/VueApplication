@@ -4,7 +4,7 @@
 
     <v-container class="my-5">
       <v-expansion-panel  >
-        <v-expansion-panel-content   v-for="job in jobs" :key="job.company" >
+        <v-expansion-panel-content   v-for="job in jobs">
 
           <img style="width:100px;height:auto;margin-left: 22px" :src="`https://assets.themuse.com/uploaded/companies/${job.logo}/small_logo.png`" />
 

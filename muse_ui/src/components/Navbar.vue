@@ -37,6 +37,7 @@
                 drawer:false,
                 links: [
                     { icon: 'folder', text: 'My Jobs', route: '/' },
+                    { icon: 'person', text: 'Add Job', route:'/addjob'}
 
                 ]
             }
